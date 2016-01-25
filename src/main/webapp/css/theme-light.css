@@ -1,0 +1,36 @@
+@CHARSET "UTF-8";
+/**
+ * Theme CSS classes defined here.  Designed to separate color, theme from position, layout.
+ */
+/* *** element colors *** */
+a:hover {
+    color:orange !important;
+}
+
+a:link, a:visited {
+    color:blue;
+}
+
+label:hover {
+    color:orange;
+}
+
+/* *** id colors *** */
+#menu {
+    background:black; 
+    color:lightgrey;
+}
+
+#menuitems {
+    background:white; 
+}
+
+/* *** class colors *** */
+.line {
+    border:1px solid;
+}
+
+.section {
+    background:lightgrey; 
+    color:black;
+}

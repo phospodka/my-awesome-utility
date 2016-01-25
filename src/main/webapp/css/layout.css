@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+/**
+ * Layout CSS classes defined here.  Designed to separate position, layout from color, theme.
+ */
+/* *** element layout *** */
+a {
+    padding:2px;
+}
+
+textarea{
+    height:120px;
+}
+
+/* *** id layout *** */
+#menu {
+    padding:5px;
+}
+
+#menu label {
+    width:100%;
+}
+
+/* *** class layout *** */
+.block {
+    display:block;
+}
+
+.float {
+    float:left;
+}
+
+.hidden {
+    display: none;
+}
+
+.line {
+    margin: 2px 0 2px 0;
+}
+
+.section {
+    padding:5px;
+    margin: 5px 0 5px 0;
+}
+
+.shortinput {
+    margin: 1px;
+    width:200px;
+}
+
+.stdinput {
+    margin: 1px;
+    width:400px;
+}
+
+.stdlabel {
+    margin: 1px;
+    width:110px;
+}
